@@ -16,11 +16,13 @@ ChatBot Boilerplate using DialogFlow and Flask
 
 ## Folders & Files
 
+```
 $ touch .env .flaskenv .gitignore README.md requirements.txt
 
 $ mkdir -p src && cd src && mkdir templates static
 
 $ touch app.py static/{custom.js,style.css} templates/index.html
+```
 
 ### Virtual Environment using Bash
 
