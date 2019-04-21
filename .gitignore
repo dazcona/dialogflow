@@ -1,0 +1,10 @@
+.DS_Store
+.vscode/
+env/*
+src/*.pyc
+src/__pycache__
+src/config.py
+src/*.yaml
+data/*
+video/
+.env

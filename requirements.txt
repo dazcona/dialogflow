@@ -1,0 +1,4 @@
+Flask
+requests
+dialogflow
+python-dotenv
