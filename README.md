@@ -12,6 +12,19 @@ ChatBot Boilerplate using DialogFlow and Flask
 * [ngrok](https://ngrok.com/)
 * JavaScript
 
+## DialogFlow setup
+
+1. Creating an agent
+
+2. Creating an Intent:
+![](figures/intents.png)
+
+2. Creating an Entity:
+![](figures/entities.png)
+
+3. Fulfillment:
+![](figures/fulfillment.png)
+
 ## Deployment
 
 ## Folders & Files
@@ -49,6 +62,11 @@ List the libraries installed on your environment:
 Run the development server:
 ```
 (env) $ flask run
+```
+
+Exposing our localhost to the world
+```
+$ ngrok http localhost:5000
 ```
 
 When you are done, the command to deactivate virtual environment:
